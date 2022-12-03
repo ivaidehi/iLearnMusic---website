@@ -1,0 +1,93 @@
+*{    color: aliceblue; font-family: 'Philosopher';}
+body{
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.575) url("/static/imgilm/bgilm.jpg");
+      background-size: cover;
+      background-repeat: 2;
+      background-blend-mode: darken;
+}
+#logo{
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      position: absolute;      
+}
+#topBar{
+      display: flex;
+      justify-content: end;
+      background-color: rgba(0, 0, 0, 0.6);
+}
+#topBar a{
+      margin: 15px;
+      margin-right: 25px;
+      font-size: 20px;
+      text-decoration: none;
+}
+#topBar a:hover{color: aquamarine;}
+hr{border-color: rgba(240, 248, 255, 0.452);}  
+#intro p{font-size: larger;}
+#bgBar{
+      padding: 5px;
+      text-align: center; 
+      background-color:rgba(0, 0, 0, 0.402);}
+.imgSize{
+      height: 330px;
+      width: 500px;
+      border-radius: 10px;
+}
+.adjust{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;     
+}
+.g div{text-align: center;font-size: x-large;}
+#instruments div{margin: 20px;}
+#bookingClass form input{
+      display: flex;
+      width: 300px;
+      margin: 30px;
+      margin-left: 7px;
+      padding: 7px;
+      border-radius: 7px;
+}
+form #btn{display: flex;}
+form #btn button{
+    width: 80px;
+    margin: 10px;  
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    background-color: rgb(130, 130, 248);
+}
+form #btn button:hover{background-color: skyblue;}
+#logReg {
+      display: flex;
+      justify-content: space-around;
+}
+#learningObj{font-size: x-large;}
+#sponsership{
+      height: 80px;
+      padding: 20px;
+      margin: auto;
+      background-color: rgba(92, 95, 97, 0.352);
+      align-items: center;
+      justify-content: space-evenly;
+}
+.sponserImgSize{ height: 50px;}
+#lastPart {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+}
+#lastPart div {margin: 30px; cursor: pointer;}
+#lastPart div span{display: block;}
+#lastPart div span:hover{color: aquamarine;}
+#cr{
+      padding: 5px;
+      background-color:  rgba(0, 0, 0, 0.402);
+      text-align: center;
+      font-size: small;
+}
+

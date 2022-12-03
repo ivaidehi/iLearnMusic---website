@@ -1,0 +1,100 @@
+doctype html 
+html 
+     head
+          title iLearnmusic :: music learning website
+          style
+               include ../static/style.css
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+     body
+          hr
+          //- img#logo(src="https://c8.alamy.com/zooms/9/d31bbf875e8142d197c8cc0ecfe8e2e7/2c2rpyy.jpg", alt="error")  
+          img#logo(src="/static/imgilm/logoilm.jpg", alt="error")
+          nav#topBar
+               a(href="#") Home
+               a(href="#") Contact  
+               a(href="#") Book Class
+               a(href="#") About Us
+               a(href="#") More
+          br
+          br
+          h1 Welcome all to iLearnmusic.com
+          section#intro
+               span learn your passion music with the help of expert musicians....
+               p Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds with the help of the various musical instruments. A person who knows music is a Musician.Music is a vital part of different moments of human life. It spreads happiness and joy in a person’s life. Music is the soul of life and gives immense peace to us. In the words of William Shakespeare, “If music is the food of love, play on, Give me excess of it; that surfeiting, The appetite may sicken, and so die.” Thus, Music helps us in connecting with our souls or real self.Music has great qualities of healing a person emotionally and mentally. Music is a form of meditation. While composing or listening music ones tends to forget all his worries, sorrows and pains.Music is the essence of life. Everything that has rhythm has music. Our breathing also has a rhythm.
+          br    
+          hr
+          h2#bgBar Moslty Focus on instruments below...
+          br
+          section#instruments.adjust
+               div.g
+                    img.imgSize(src="static/giutar.jpg")
+                    div ---  Guitar  ---
+               div.g
+                    img.imgSize(src="/static/imgilm/piano.webp")
+                    div  ---  Piano  ---
+               div.g
+                    img.imgSize(src="/static/imgilm/voilin.jpg")
+                    div  ---  Voilin  ---
+          hr
+          h2#bgBar Book the classes, Now ! Hurry up...
+          section#logReg
+               div#bookingClass
+                    form(action="/")
+                         input(type="text" name="uname" placeholder="Enter your username")
+                         input(type="email" name="emailid" placeholder="Enter your email")
+                         div#btn
+                              button LOG IN
+               div#learningObj
+                    ul 
+                         li Afordable fee structures
+                         li Expert's guidance 
+                         li Regular practices  
+                         li Competitions and experience
+                         li Trustworthy teachers staff 
+                         li Interacted with soical media 
+                         li Maintainable performance
+          hr
+          h2#bgBar Special Thanks from iLearnmusic.com. to...
+          div#sponsership.adjust
+               img.sponserImgSize(src="/static/imgilm/yt.png")
+               img.sponserImgSize(src="/static/imgilm/spotify.png")
+               img.sponserImgSize(src="/static/imgilm/insta.png")
+               img.sponserImgSize(src="/static/imgilm/fb.png")
+               img.sponserImgSize(src="/static/imgilm/gplay.png")
+               img.sponserImgSize(src="/static/imgilm/sony.png")
+               img.sponserImgSize(src="/static/imgilm/amazon.png")
+          footer.bg2#lastPart
+               div
+                    h3 More Info.
+                    span Phone: +91xxxxxxxxxx
+                    span Origin: Pandora
+                    span Email: ilearnmusic69@gmail.com
+                    span Shop no.20, Lawrence street,
+                    span Voljac city, Makaboa 58.
+                    span iLearnmusic Academy.
+               div
+                    h3 Support
+                    span Contact Us
+                    span FAQ
+                    span Information
+                    span Details
+                    span Foundations
+                    span Services
+               div
+                    h3 Policy
+                    span About Us
+                    span Terms & privacy
+                    span Promotions
+                    span Business
+                    span Help
+               div
+                    h1 iLearnmusic.com
+                    img#logo(src="/static/imgilm/logoilm.jpg", alt="error")
+          br
+          div#cr
+               span &copy; Copyrights&copy;2022 iLearnmusic.com. All rights reserved.
+          script 
+               include ../static/script.js
+
